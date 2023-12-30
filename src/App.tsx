@@ -16,7 +16,7 @@ function App() {
     <>
       <div className="flex flex-col text-red-400 text-xl">
         <h1 className="mb-5">Geeks | Pokemons</h1>
-        <div className="flex flex-col gap-4 w-full">
+        <div className="grid grid-cols-2 gap-4 w-full">
           {pokemons.map((poke, index) => (
             <PokemonCard name={poke.name} id={index + 1} />
           ))}

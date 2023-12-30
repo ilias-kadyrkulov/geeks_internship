@@ -23,7 +23,7 @@ const PokemonCard = ({ name, id }: PropsType) => {
   }, [id])
 
   return (
-    <div className="flex items-center justify-between bg-blue-400 rounded-xl w-52 h-20 px-5">
+    <div className="flex items-center justify-between bg-blue-400 rounded-xl w-full h-20 px-5">
       <img src={imageUrl} />
       <div>{name}</div>
     </div>
